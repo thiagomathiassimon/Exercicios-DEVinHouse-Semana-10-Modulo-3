@@ -11,4 +11,5 @@ jobs:
     steps:
       - name: Run mvn clean package install
         run: mvn clean package install
+        working-directory: ./Exercicio-7/Semana10
 
