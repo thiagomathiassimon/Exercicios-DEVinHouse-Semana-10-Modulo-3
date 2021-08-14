@@ -11,7 +11,10 @@ jobs:
     steps:
       - name: Run mvn clean package install
         run: |
+          echo Entrando no bash
           cd /Exercicio-7/Semana10
+          echo Entrando na pasta do arquivo
           mvn clean package install
+          echo Comando executado com sucesso
        
 
