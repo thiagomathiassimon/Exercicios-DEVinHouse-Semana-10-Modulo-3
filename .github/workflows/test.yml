@@ -15,4 +15,8 @@ jobs:
           distribution: 'adopt'
       - name: Test with Maven
         run: mvn test
-        working-directory: Exercicio-7/Semana10
+        working-directory: Exercicio-7-8-9-10/Semana10
+      - name: Maven package
+        run: mvn package
+        working-directory: Exercicio-7-8-9-10/Semana10
+
