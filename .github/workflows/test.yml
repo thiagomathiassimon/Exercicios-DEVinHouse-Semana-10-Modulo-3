@@ -10,10 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run mvn clean package install
+        working-directory: /Exercicio-7/Semana10
         run: |
-          apt-get update
+          sudo apt-get update
           sudo apt-get install java
           sudo apt-get install maven
           mvn clean package install
-        working-directory: /Exercicio-7/Semana10
+       
 
