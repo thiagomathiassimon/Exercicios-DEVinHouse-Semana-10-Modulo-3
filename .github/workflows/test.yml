@@ -15,5 +15,5 @@ jobs:
           sudo apt-get install java
           sudo apt-get install maven
           mvn clean package install
-        working-directory: ./Exercicio-7/Semana10
+        working-directory: /Exercicio-7/Semana10
 
