@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 jobs:
   test:
-    runs-on: openjdk:latest
+    runs-on: openjdk-latest
     steps:
       - name: Run a one-line script
         run: mvn clean package install
