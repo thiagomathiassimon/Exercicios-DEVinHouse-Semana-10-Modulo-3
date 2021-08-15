@@ -19,4 +19,8 @@ jobs:
       - name: Maven package
         run: mvn package
         working-directory: Exercicio-7-8-9-10/Semana10
+      - name: Generate docker image
+        run: docker image build -t book-store:01.00.00 .
+        working-directory: Exercicio-7-8-9-10/Semana10
+
 
