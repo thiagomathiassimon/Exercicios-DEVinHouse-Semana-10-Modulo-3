@@ -22,5 +22,8 @@ jobs:
       - name: Generate docker image
         run: docker image build -t book-store:01.00.00 .
         working-directory: Exercicio-7-8-9-10/Semana10
+      - name: Test frontend application.
+        run: yarn test
+        working-directory: Exercicio-10/bookstore
 
 
